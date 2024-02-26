@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ title, content,image,button }) => {
             className="bg-black /*hover:bg-blue-700*/ h-14 w-14  flex items-center justify-center rounded-full">
             <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='36' height='36' fill='rgba(255,255,255,1)'%3E%3Cpath fill='none' d='M0 0h24v24H0z'%3E%3C/path%3E%3Cpath d='M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z'%3E%3C/path%3E%3C/svg%3E" 
             alt="Button Image" className=" w-10 h-10  rounded-full" />
-        {button}
+            {button}
         </a>
       </div>
       </div>
